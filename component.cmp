@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId,force:hasSObjectName,force:appHostable" controller="YOUR_CONTROLLER" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="yourData" type="String" /> 
+</aura:component>
